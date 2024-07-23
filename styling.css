@@ -1,0 +1,238 @@
+
+body,section {
+    font-family: 'Arial, sans-serif';
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('backgound.jpg');
+    background-size: cover; /* Adjusts the background image size */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the image is not repeated */
+}
+
+
+.firstsection {
+    padding: 80px;
+    color: #fff;
+    background-color: #7b3636;
+}
+
+.leftsection {
+    padding: 20px;
+}
+
+.leftsection .blue {
+    color: #cd2d14;
+}
+
+.leftsection .button .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ce392eee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.leftsection .button .btn:hover {
+    background-color: #ff0707;
+}
+
+.rightsection img {
+    border-radius: 15px;
+    width:50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Heading styles */
+.h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #d61717e9; /* Pink color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabs container */
+.tab{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px;
+}
+
+/* Individual tab */
+.tab-t {
+    margin-right: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: #ec3f3fe0; /* Pink color */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+    text-decoration: none; /* Remove underline on hover */
+
+    /* Hover effect */
+}
+
+/* Hover effect for text color */
+.tab-t:hover {
+    color: #ffffff; /* Change text color to white on hover */
+}
+
+/* Tab underline */
+.tab-t::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff; /* White color */
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Hover effect for underline */
+.tab-t:hover::after {
+    width: 100%; /* Expand underline on hover */
+}
+
+/* Tab content container */
+.tab-con {
+    display: none;
+    margin-top: 20px; /* Adjust spacing */
+    color: #fff; /* White text color */
+}
+
+/* Active tab content */
+.tab-con.active-tab {
+    display: block;
+}
+
+/* List items inside tab content */
+.tab-con ul {
+    padding-left: 250px;
+}
+
+.tab-con ul li {
+    list-style: none;
+    margin-bottom: 10px; /* Adjust spacing between items */
+}
+
+.tab-con ul li span {
+    color: #d61717e9; /* Light purple color */
+    font-size: 17px;
+}
+
+
+.contact-left, .contact-right{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #000000;
+}
+.about{
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+    margin-right: 170px;
+}
+
+.contact-left h1 {
+    margin-bottom: 20px;
+    color: #b52927;
+}
+
+.contact-left p, .contact-left .social-media {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-media a:hover {
+    color: #0056b3;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cd2d14;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ce5151b2;
+}
+
+.copyright {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    border-top: 1px solid #e9ecef;
+    color: #fff;
+}
+
+.project-card, .service-card {
+   
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+
+
+.h2 {
+    margin-top: 0;
+    color: #d61717e9;
+}
+.anc{
+    color: rgb(180, 195, 208); 
+    text-decoration:none;
+}
+
+.navbar-custom {
+    background-color: #b92727e9;
+}
+
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.cont{
+    color: rgb(180, 195, 208); 
+    text-decoration:none;
+    margin-left: 55px;
+    font-size: 20px;  
+}
+.cont:hover {
+    color: #cea2a2b2;
+}
+
