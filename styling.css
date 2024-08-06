@@ -262,3 +262,34 @@ body, section {
 .cont:hover {
     color: #cea2a2b2;
 }
+.about {
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add some padding to make it look better on smaller screens */
+}
+
+/* For larger screens */
+@media (min-width: 992px) {
+    .about {
+        margin-left: 200px;
+        margin-right: 170px;
+    }
+}
+
+/* For medium screens */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* For small screens */
+@media (max-width: 767.98px) {
+    .about {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
